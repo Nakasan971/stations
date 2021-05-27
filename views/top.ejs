@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Stations</title>
+  </head>
+  <body>
+    <h1>
+      東急田園都市線駅一覧
+    </h1>
+    <form action="https://fathomless-bastion-00092.herokuapp.com/"></form>
+    <%for (let i = 0; i < stations.length; i++) {%>
+      <% let station = stations[i];%>
+      <p><%= station %></p>
+    <%}%>
+  </body>
+</html>
